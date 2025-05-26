@@ -1,0 +1,13 @@
+/* blog-delete.css - Placeholder styling for blog deletion confirmation */
+body {
+    background: #fff0f0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+h1, h2 {
+    text-align: center;
+    margin-top: 2rem;
+}
+a {
+    color: #b20000;
+    text-decoration: underline;
+}

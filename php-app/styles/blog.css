@@ -1,0 +1,149 @@
+* {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+html {
+  background-color: #80d4ff;
+}
+
+.error {
+  color: red;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.alert {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.alert a {
+  color: white;
+  background: #CC9900;
+  padding: 6px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.logout {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #CC3333;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+.form-main {
+  display: flex;
+  align-items: normal;
+  width: 50vw;
+}
+
+.form-main .description {
+  position: absolute;
+  left: 5px;
+  top: -15px;
+}
+
+.form-main .text-title {
+  font-size: 20px;
+}
+
+.form-main .body-title {
+  height: 5vh;
+  margin-bottom: 3%;
+  outline: none;
+}
+
+.form-main .text-post {
+  font-size: 20px;
+}
+
+.form-main .body-post {
+  height: 15vh;
+  outline: none;
+}
+
+.form-main .submit-button {
+  width: 10vw;
+  margin: auto;
+  margin-top: 3%;
+  padding: 5px;
+  background: #339999;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table-main {
+  width: 50vw;
+  background: #669999;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.table-main .post-num {
+  margin-right: 40vw;
+}
+
+.table-main .post-title {
+  margin-top: -50px;
+  padding: 0 20px 0 20px;
+  border-radius: 6px;
+}
+
+.table-main .post-body {
+  background: yellow;
+  margin-top: 5px;
+  width: 45vw;
+  min-height: 10vh;
+  padding: 5px;
+  border-radius: 8px;
+  background: #99CCFF;
+  z-index: 1;
+}
+
+.table-main .post-date {
+  margin-top: -15px;
+  margin-right: 35vw;
+  height: 45px;
+  border-radius: 0 0 5px 5px;
+  padding: 0 5px 0 5px;
+  background: #CCCCCC
+}
+
+.table-main .post-update {
+  margin-left: 40vw;
+  margin-top: -15px;
+  background:	#FFCC99;
+  padding: 5px;
+  width: 50px;
+  border-radius: 4px;
+}
+
+.table-main .post-update a {
+  color: black;
+}
+
+.table-main .post-delete {
+  margin-left: 28vw;
+  margin-top: -28px;
+  background:	#CC3333;
+  padding: 5px;
+  width: 50px;
+  border-radius: 4px;
+}
+
+.table-main .post-delete a {
+  color: white;
+}
